@@ -1,0 +1,44 @@
+.noPeopleMatch {
+  font-size: 1.6rem;
+}
+
+.tableContainer {
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.3rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.table thead {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.table tr {
+  height: 6rem;
+}
+
+th,
+td {
+  padding: 1.6rem;
+}
+
+.avatar img {
+  height: 3.4rem;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: rgb(240, 240, 240);
+}
+
+.table tbody tr td:nth-child(5) {
+  color: #20b2aa;
+  text-transform: lowercase;
+}

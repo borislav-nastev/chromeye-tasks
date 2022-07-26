@@ -1,0 +1,21 @@
+.btnGroup {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  height: 6rem;
+}
+
+.btnContainer {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+
+.actions {
+  font-size: 1.6rem;
+}
+
+.actionItem {
+  cursor: pointer;
+  padding: 0 0.5rem;
+}

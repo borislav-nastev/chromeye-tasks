@@ -1,0 +1,50 @@
+.inputGroup {
+  position: relative;
+  flex-grow: 1;
+  height: 6rem;
+  margin-right: 2rem;
+}
+
+.input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #e1e5ee;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-size: 2rem;
+  outline: none;
+  padding: 0.8rem;
+  background: none;
+  transition: border-color 100ms ease-in;
+}
+
+.input:hover {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.input:focus {
+  border-color: #1976d2;
+}
+
+.label {
+  position: absolute;
+  left: 2rem;
+  top: 1.9rem;
+  padding: 0 0.5rem;
+  color: #a4a5a7;
+  cursor: text;
+  font-size: 1.8rem;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  background-color: white;
+}
+
+.input:focus ~ .label,
+.input:not(:placeholder-shown).input:not(:focus) ~ .label {
+  top: -0.8rem;
+  font-size: 1.4rem;
+  left: 0.8rem;
+  color: #1976d2;
+}
